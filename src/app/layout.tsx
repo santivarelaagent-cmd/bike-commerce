@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mango Bike | Premium Bike Store & E-Commerce",
+  title: "Mango Bike Store",
   description:
     "Descubre nuestra selecta gama de bicicletas de montaña, ruta y asistencia eléctrica. Equipamiento premium y envíos rápidos en todo el país.",
   keywords: ["bicicletas", "bike store", "mountain bike", "ruta", "specialized", "trek", "giant"],

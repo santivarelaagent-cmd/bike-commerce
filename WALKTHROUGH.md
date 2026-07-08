@@ -136,5 +136,25 @@ Se extrajo el control de selección interactivo `<select>` del Server Component 
 ![Catálogo Limpio](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/products_page_empty_1783213837253.png)
 ![Video de Filtro de Catálogo](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/catalog_sort_check_1783213825647.webp)
 
+### Actualización de Nombre y Logo de Marca ("Mango Bike")
+Toda la plataforma ha sido renombrada a **Mango Bike**, reemplazando referencias previas e integrando el nuevo activo SVG de marca `public/mango.svg` en la cabecera, pie de página, pantalla de inicio de sesión y barra lateral de administración.
+![Login con Logo Mango](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/login_page_1783535292736.png)
+![Header con Logo Mango](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/homepage_header_1783535250068.png)
+![Footer con Logo Mango](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/homepage_footer_1783535260271.png)
+![Video de Verificación de Logo](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/logo_change_check_1783534950727.webp)
+
+### Arquitectura de Selección de Temas Múltiples
+Diseñamos un proveedor de contexto dinámico y un selector interactivo premium que permite la conmutación inmediata de paletas de colores:
+- **Oscuro Mango** (Tema oscuro predeterminado de la marca)
+- **Claro Limpio** (Tema claro de alta legibilidad)
+- **Bosque** (Esmeralda/Verde profundo para montaña y outdoor)
+- **Cyberpunk** (Fucsia/Cian neón futurista de alta energía)
+
+Un script autoejecutable evita destellos blancos/oscuros iniciales antes del renderizado de React.
+![Tema Cyberpunk en Tienda](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/cyberpunk_theme_1783535521643.png)
+![Tema Claro en Tienda](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/claro_theme_1783535541841.png)
+![Video de Cambio de Temas](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/theme_switch_test_1783535484475.webp)
+
+
 
 

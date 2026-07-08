@@ -181,9 +181,10 @@ Se reemplazó el icono genérico de WhatsApp por el logo personalizado `WhatsApp
 ![Video de Validación de Icono WhatsApp](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/custom_whatsapp_check_1783541568558.webp)
 
 #### Animación de Fondo en Hero Section
-Configuramos la animación `public/landing-1.gif` como fondo de la sección principal (Hero) de la página de inicio, aplicando capas de oscurecimiento y gradientes para garantizar la máxima legibilidad de los textos y botones.
-![Hero con Fondo Animado](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/hero_section_gif_bg_1783546606819.png)
-![Video de Verificación del Fondo Animado](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/gif_background_check_1783546577367.webp)
+Configuramos la animación `public/landing-1.gif` como fondo de la sección principal (Hero) de la página de inicio. Ajustamos la transparencia a `opacity-45` y aclaramos las capas de sombreado radial (`from-slate-950/20 via-slate-950/50`) para hacerlo más visible sin comprometer la legibilidad del texto superior.
+![Hero con Fondo Animado Mejorado](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/hero_section_updated_1783546878540.png)
+![Video de Verificación del Fondo Animado Mejorado](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/gif_lightness_check_1783546839347.webp)
+
 
 
 

@@ -52,9 +52,9 @@ export default async function HomePage() {
           <img
             src="/landing-1.gif"
             alt="Hero background"
-            className="w-full h-full object-cover opacity-20 select-none pointer-events-none"
+            className="w-full h-full object-cover opacity-45 select-none pointer-events-none"
           />
-          <div className="absolute inset-0 bg-radial from-slate-950/40 via-slate-950/70 to-slate-950 z-10"></div>
+          <div className="absolute inset-0 bg-radial from-slate-950/20 via-slate-950/50 to-slate-950 z-10"></div>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(249,115,22,0.25),transparent_50%)] z-10"></div>
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-20">

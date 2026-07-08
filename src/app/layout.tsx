@@ -17,18 +17,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mango-bike.vercel.app"),
   title: "Mango Bike Store",
   description:
     "Descubre nuestra selecta gama de bicicletas de montaña, ruta y asistencia eléctrica. Equipamiento premium y envíos rápidos en todo el país.",
   keywords: ["bicicletas", "bike store", "mountain bike", "ruta", "specialized", "trek", "giant"],
   authors: [{ name: "Mango Bike" }],
   openGraph: {
-    title: "Mango Bike | E-Commerce de Bicicletas Premium",
-    description: "Encuentra bicicletas de alta gama y componentes Specialized, Trek y Giant.",
+    title: "Mango Bike Store | E-Commerce de Bicicletas Premium",
+    description: "Descubre nuestra selecta gama de bicicletas de montaña, ruta y asistencia eléctrica. Equipamiento premium y envíos rápidos.",
     url: "https://mango-bike.vercel.app",
-    siteName: "Mango Bike",
-    locale: "es_AR",
+    siteName: "Mango Bike Store",
+    locale: "es_ES",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Mango Bike Store Banner",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mango Bike Store | E-Commerce de Bicicletas Premium",
+    description: "Descubre nuestra selecta gama de bicicletas de montaña, ruta y asistencia eléctrica. Equipamiento premium y envíos rápidos.",
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,

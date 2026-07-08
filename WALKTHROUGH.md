@@ -190,6 +190,11 @@ Ocultamos el texto del nombre de marca "Mango Bike" en pantallas móviles (`hidd
 ![Header Móvil Responsivo](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/mobile_header_verification_1783547335713.png)
 ![Video de Validación de Cabecera Móvil](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/mobile_header_check_1783547300541.webp)
 
+#### Optimización de SEO y Previsualización Social (Open Graph & Twitter Cards)
+Generamos un banner gráfico profesional (`public/og-image.png`) a resolución estándar (1200x630 px) con la marca Mango Bike Store y configuramos las metaetiquetas Open Graph y Twitter Cards en el layout de Next.js.
+![Banner de Previsualización Social (OG Image)](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/og_image_1783548183059.png)
+
+
 
 
 

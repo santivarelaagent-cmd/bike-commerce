@@ -57,7 +57,7 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/" className="text-2xl font-black tracking-tighter text-primary flex items-center gap-2">
               <img src="/mango.svg" alt="Mango Bike" className="w-8 h-8 object-contain" />
-              <span>MANGO BIKE</span>
+              <span className="hidden sm:inline">Mango Bike</span>
             </Link>
           </div>
 

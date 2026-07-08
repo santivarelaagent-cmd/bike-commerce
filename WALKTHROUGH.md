@@ -185,6 +185,12 @@ Configuramos la animación `public/landing-1.gif` como fondo de la sección prin
 ![Hero con Fondo Animado Mejorado](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/hero_section_updated_1783546878540.png)
 ![Video de Verificación del Fondo Animado Mejorado](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/gif_lightness_check_1783546839347.webp)
 
+#### Cabecera Adaptativa (Responsiva)
+Ocultamos el texto del nombre de marca "Mango Bike" en pantallas móviles (`hidden sm:inline`) para optimizar el espacio de la barra superior, mostrando únicamente el logo SVG.
+![Header Móvil Responsivo](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/mobile_header_verification_1783547335713.png)
+![Video de Validación de Cabecera Móvil](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/mobile_header_check_1783547300541.webp)
+
+
 
 
 

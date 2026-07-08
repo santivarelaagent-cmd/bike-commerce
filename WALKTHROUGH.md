@@ -175,3 +175,9 @@ Hemos integrado dos botones flotantes apilados en la esquina inferior derecha de
 ![Redirección a Checkout](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/checkout_redirect_1783541136849.png)
 ![Video de Verificación del Drawer](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/cart_drawer_flow_1783540963693.webp)
 
+#### Actualización del Logo de WhatsApp
+Se reemplazó el icono genérico de WhatsApp por el logo personalizado `WhatsAppIcon` con sombras y gradientes correspondiente al recurso externo suministrado.
+![WhatsApp Logo Flotante Actualizado](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/floating_buttons_new_whatsapp_logo_1783541584220.png)
+![Video de Validación de Icono WhatsApp](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/custom_whatsapp_check_1783541568558.webp)
+
+

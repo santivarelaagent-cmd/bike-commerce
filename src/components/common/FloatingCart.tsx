@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { useCart } from "@/providers/CartProvider";
-import { ShoppingCart, MessageSquare, ArrowRight, ChevronDown, ChevronUp, Trash2 } from "lucide-react";
+import { ShoppingCart, ArrowRight, ChevronDown, ChevronUp, Trash2 } from "lucide-react";
+import WhatsAppIcon from "@/components/icons/whatsapp-2";
 import { cn } from "@/utils/cn";
 import { useRouter } from "next/navigation";
 
@@ -53,10 +54,10 @@ export default function FloatingCart() {
           href="https://wa.me/5491133334444?text=Hola!%20Tengo%20una%20consulta%20sobre%20las%20bicicletas%20de%20Mango%20Bike."
           target="_blank"
           rel="noopener noreferrer"
-          className="flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg hover:scale-110 transition-transform duration-200"
+          className="flex h-12 w-12 items-center justify-center hover:scale-110 transition-transform duration-200"
           title="Contactar por WhatsApp"
         >
-          <MessageSquare className="w-6 h-6 fill-white text-[#25D366]" />
+          <WhatsAppIcon className="w-12 h-12" />
         </a>
 
         {/* Cart FAB */}

@@ -60,7 +60,7 @@ export default async function HomePage() {
               </span>
             </h1>
             <p className="text-lg text-muted-foreground mb-10 max-w-lg">
-             Los mejores componentes y accesorios para llevar tu pasión por el ciclismo al siguiente nive
+             Los mejores componentes y accesorios para llevar tu pasión por el ciclismo al siguiente nivel
             </p>
             <div className="flex flex-wrap gap-4">
               <Link

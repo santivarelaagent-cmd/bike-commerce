@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import { useTheme } from "@/providers/ThemeProvider";
-import { Sun, Moon, TreePine, Zap } from "lucide-react";
+import { Sun, Moon, TreePine, Zap, Award } from "lucide-react";
 import { cn } from "@/utils/cn";
 
 export default function ThemeSelector() {
@@ -26,6 +26,7 @@ export default function ThemeSelector() {
     { id: "light" as const, name: "Claro Limpio", icon: Sun, dotColor: "bg-[#f59e0b] border-white" },
     { id: "forest" as const, name: "Bosque", icon: TreePine, dotColor: "bg-[#10b981] border-[#052214]" },
     { id: "cyberpunk" as const, name: "Cyberpunk", icon: Zap, dotColor: "bg-[#ff007f] border-[#0c001a]" },
+    { id: "vintage" as const, name: "Retro Gold", icon: Award, dotColor: "bg-[#facb1a] border-[#1a120d]" },
   ];
 
   const currentThemeInfo = themes.find((t) => t.id === theme) || themes[0];

@@ -54,7 +54,7 @@ export default function RootLayout({
                   var storedTheme = localStorage.getItem('mango-theme');
                   var theme = storedTheme || 'dark';
                   document.documentElement.setAttribute('data-theme', theme);
-                  if (theme === 'dark' || theme === 'forest' || theme === 'cyberpunk') {
+                  if (theme === 'dark' || theme === 'forest' || theme === 'cyberpunk' || theme === 'vintage') {
                     document.documentElement.classList.add('dark');
                   } else {
                     document.documentElement.classList.remove('dark');

@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useEffect, useState } from "react";
 
-type Theme = "light" | "dark" | "forest" | "cyberpunk";
+type Theme = "light" | "dark" | "forest" | "cyberpunk" | "vintage";
 
 interface ThemeContextProps {
   theme: Theme;
@@ -17,7 +17,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     // Read persisted theme from localStorage or default to dark
     const storedTheme = localStorage.getItem("mango-theme") as Theme;
-    if (storedTheme && ["light", "dark", "forest", "cyberpunk"].includes(storedTheme)) {
+    if (storedTheme && ["light", "dark", "forest", "cyberpunk", "vintage"].includes(storedTheme)) {
       setThemeState(storedTheme);
       applyTheme(storedTheme);
     } else {
@@ -33,7 +33,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     root.setAttribute("data-theme", newTheme);
 
     // Toggle .dark class for backwards compatibility/fallback support
-    if (newTheme === "dark" || newTheme === "forest" || newTheme === "cyberpunk") {
+    if (newTheme === "dark" || newTheme === "forest" || newTheme === "cyberpunk" || newTheme === "vintage") {
       root.classList.add("dark");
     } else {
       root.classList.remove("dark");

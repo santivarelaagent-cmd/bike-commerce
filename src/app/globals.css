@@ -95,6 +95,29 @@
   --ring: #ff007f;
 }
 
+/* Theme: Vintage Gold */
+:root[data-theme="vintage"] {
+  --background: #1a120d; /* Deep brownish charcoal */
+  --foreground: #f6f7f0; /* Soft alabaster off-white */
+  --card: #241b14; /* Warm charcoal dark card */
+  --card-foreground: #f6f7f0;
+  --popover: #241b14;
+  --popover-foreground: #f6f7f0;
+  --primary: #facb1a; /* Gold Accent */
+  --primary-foreground: #1a120d;
+  --secondary: #56410b; /* Deep Bronze */
+  --secondary-foreground: #f9eeac;
+  --muted: #56410b;
+  --muted-foreground: #81817f; /* Slate Stone */
+  --accent: #9b8432; /* Antique Olive Gold */
+  --accent-foreground: #f6f7f0;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: #56410b;
+  --input: #56410b;
+  --ring: #facb1a;
+}
+
 /* 2. Tailwind Theme Extension mapping */
 @theme {
   --color-background: var(--background);

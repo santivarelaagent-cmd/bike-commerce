@@ -54,9 +54,9 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between gap-4">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-black tracking-tighter text-primary flex items-center gap-1">
-              <span>VELOCE</span>
-              <span className="w-2 h-2 rounded-full bg-foreground inline-block"></span>
+            <Link href="/" className="text-2xl font-black tracking-tighter text-primary flex items-center gap-2">
+              <img src="/mango.svg" alt="Mango Bike" className="w-8 h-8 object-contain" />
+              <span>MANGO BIKE</span>
             </Link>
           </div>
 

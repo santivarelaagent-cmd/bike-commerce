@@ -27,10 +27,10 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   }
 
   return {
-    title: `${product.name} | Veloce Bikes`,
+    title: `${product.name} | Mango Bike`,
     description: product.description.slice(0, 160),
     openGraph: {
-      title: `${product.name} | Veloce Bikes`,
+      title: `${product.name} | Mango Bike`,
       description: product.description.slice(0, 160),
       images: [{ url: product.images[0] }],
     },

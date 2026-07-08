@@ -53,7 +53,7 @@ export default async function ProfilePage() {
           </div>
         )}
         <div className="text-center sm:text-left flex-grow">
-          <h1 className="text-2xl font-extrabold text-foreground">{dbUser?.name || "Usuario de Veloce"}</h1>
+          <h1 className="text-2xl font-extrabold text-foreground">{dbUser?.name || "Usuario de Mango Bike"}</h1>
           <p className="text-sm text-muted-foreground">{dbUser?.email}</p>
           <div className="flex flex-wrap justify-center sm:justify-start gap-2 mt-3">
             <span className={cn(

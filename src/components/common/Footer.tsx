@@ -8,9 +8,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand Info */}
           <div className="space-y-4">
-            <h3 className="text-lg font-black tracking-tighter text-primary">
-              VELOCE<span className="w-1.5 h-1.5 rounded-full bg-foreground inline-block ml-0.5"></span>
-            </h3>
+            <div className="flex items-center gap-2">
+              <img src="/mango.svg" alt="Mango Bike" className="w-6 h-6 object-contain" />
+              <span className="text-lg font-black tracking-tighter text-primary">MANGO BIKE</span>
+            </div>
             <p className="text-sm text-muted-foreground">
               La bicicletería premium preferida por profesionales y entusiastas. Elevamos tu experiencia sobre ruedas.
             </p>
@@ -85,7 +86,7 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Veloce Bikes S.A. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Mango Bike S.A. Todos los derechos reservados.
           </p>
           <div className="flex space-x-6 text-xs text-muted-foreground">
             <span className="hover:text-primary cursor-pointer">Mercado Pago Verificado</span>

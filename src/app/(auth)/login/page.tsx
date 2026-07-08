@@ -68,11 +68,11 @@ export default function LoginPage({ searchParams }: LoginPageProps) {
       <div className="w-full max-w-md space-y-8 bg-card border border-border p-8 rounded-2xl shadow-sm text-center">
         {/* Brand Icon */}
         <div className="flex flex-col items-center justify-center space-y-2">
-          <div className="p-3 rounded-full bg-primary/10 text-primary">
-            <Bike className="w-10 h-10" />
+          <div className="p-3 rounded-full bg-primary/10 text-primary flex items-center justify-center">
+            <img src="/mango.svg" alt="Mango Bike" className="w-12 h-12 object-contain" />
           </div>
           <h2 className="text-3xl font-black tracking-tighter text-foreground">
-            VELOCE<span className="w-2 h-2 rounded-full bg-primary inline-block ml-0.5"></span>
+            MANGO BIKE
           </h2>
           <p className="text-sm text-muted-foreground">Inicia sesión para continuar tu compra</p>
         </div>

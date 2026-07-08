@@ -49,10 +49,10 @@ export default async function AdminLayout({ children }: { children: React.ReactN
       {/* Admin Sidebar */}
       <aside className="w-64 border-r border-border bg-card shrink-0 hidden md:flex flex-col justify-between">
         <div className="p-6 space-y-6">
-          <Link href="/" className="text-xl font-black tracking-tighter text-primary flex items-center gap-1.5">
-            <span>VELOCE</span>
-            <span className="w-1.5 h-1.5 rounded-full bg-foreground inline-block"></span>
-            <span className="text-[10px] uppercase font-bold text-muted-foreground border border-border px-1.5 py-0.5 rounded ml-2">
+          <Link href="/" className="text-xl font-black tracking-tighter text-primary flex items-center gap-2">
+            <img src="/mango.svg" alt="Mango Bike" className="w-6 h-6 object-contain" />
+            <span>MANGO BIKE</span>
+            <span className="text-[10px] uppercase font-bold text-muted-foreground border border-border px-1.5 py-0.5 rounded">
               Panel
             </span>
           </Link>

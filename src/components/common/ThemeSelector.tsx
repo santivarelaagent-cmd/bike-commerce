@@ -27,6 +27,7 @@ export default function ThemeSelector() {
     { id: "forest" as const, name: "Bosque", icon: TreePine, dotColor: "bg-[#10b981] border-[#052214]" },
     { id: "cyberpunk" as const, name: "Cyberpunk", icon: Zap, dotColor: "bg-[#ff007f] border-[#0c001a]" },
     { id: "vintage" as const, name: "Retro Gold", icon: Award, dotColor: "bg-[#facb1a] border-[#1a120d]" },
+    { id: "vintage-light" as const, name: "Retro Gold Claro", icon: Award, dotColor: "bg-[#facb1a] border-[#f6f7f0]" },
   ];
 
   const currentThemeInfo = themes.find((t) => t.id === theme) || themes[0];

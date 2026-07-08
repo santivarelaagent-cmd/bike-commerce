@@ -6,6 +6,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { ShoppingCart, User, Search, Menu, X, LogOut, ShieldAlert } from "lucide-react";
 import { useCart } from "@/providers/CartProvider";
 import { createClient } from "@/lib/supabase/client";
+import ThemeSelector from "@/components/common/ThemeSelector";
 import { cn } from "@/utils/cn";
 
 export default function Header() {
@@ -124,6 +125,9 @@ export default function Header() {
               <Search className="w-5 h-5" />
             </button>
 
+            {/* Theme Selector */}
+            <ThemeSelector />
+
             {/* Admin trigger */}
             {isAdmin && (
               <Link
@@ -237,6 +241,11 @@ export default function Header() {
                 </button>
               </>
             )}
+            <hr className="border-border" />
+            <div className="flex items-center justify-between pt-1">
+              <span className="text-sm font-semibold text-muted-foreground">Paleta visual:</span>
+              <ThemeSelector />
+            </div>
           </div>
         </div>
       )}

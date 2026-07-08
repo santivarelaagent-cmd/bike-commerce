@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import QueryProvider from "@/providers/QueryProvider";
 import { CartProvider } from "@/providers/CartProvider";
+import { ThemeProvider } from "@/providers/ThemeProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,14 +43,36 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var storedTheme = localStorage.getItem('mango-theme');
+                  var theme = storedTheme || 'dark';
+                  document.documentElement.setAttribute('data-theme', theme);
+                  if (theme === 'dark' || theme === 'forest' || theme === 'cyberpunk') {
+                    document.documentElement.classList.add('dark');
+                  } else {
+                    document.documentElement.classList.remove('dark');
+                  }
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
-        <QueryProvider>
-          <CartProvider>
-            {children}
-          </CartProvider>
-        </QueryProvider>
+        <ThemeProvider>
+          <QueryProvider>
+            <CartProvider>
+              {children}
+            </CartProvider>
+          </QueryProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

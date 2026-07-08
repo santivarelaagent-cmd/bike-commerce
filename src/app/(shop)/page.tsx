@@ -46,9 +46,18 @@ export default async function HomePage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-radial from-slate-900 via-slate-950 to-slate-950 text-white py-24 sm:py-32">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(249,115,22,0.15),transparent_45%)]"></div>
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
+      <section className="relative overflow-hidden bg-slate-950 text-white py-24 sm:py-32">
+        {/* Background GIF with overlay */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/landing-1.gif"
+            alt="Hero background"
+            className="w-full h-full object-cover opacity-20 select-none pointer-events-none"
+          />
+          <div className="absolute inset-0 bg-radial from-slate-950/40 via-slate-950/70 to-slate-950 z-10"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(249,115,22,0.25),transparent_50%)] z-10"></div>
+        </div>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-20">
           <div className="max-w-2xl">
             <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary border border-primary/20 mb-6">
               Nueva Colección 2026

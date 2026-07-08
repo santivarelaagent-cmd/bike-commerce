@@ -149,12 +149,11 @@ Diseñamos un proveedor de contexto dinámico y un selector interactivo premium 
 - **Claro Limpio** (Tema claro de alta legibilidad)
 - **Bosque** (Esmeralda/Verde profundo para montaña y outdoor)
 - **Cyberpunk** (Fucsia/Cian neón futurista de alta energía)
+- **Retro Gold** (Bronce, oro envejecido y fondo carbón cálido basado en el esquema de hexágonos del usuario)
 
 Un script autoejecutable evita destellos blancos/oscuros iniciales antes del renderizado de React.
 ![Tema Cyberpunk en Tienda](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/cyberpunk_theme_1783535521643.png)
 ![Tema Claro en Tienda](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/claro_theme_1783535541841.png)
+![Tema Retro Gold en Tienda](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/retro_gold_active_1783537100484.png)
 ![Video de Cambio de Temas](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/theme_switch_test_1783535484475.webp)
-
-
-
-
+![Video de Verificación de Retro Gold](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/vintage_theme_test_1783536976864.webp)

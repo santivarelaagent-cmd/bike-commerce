@@ -160,3 +160,18 @@ Un script autoejecutable evita destellos blancos/oscuros iniciales antes del ren
 ![Video de Cambio de Temas](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/theme_switch_test_1783535484475.webp)
 ![Video de Verificación de Retro Gold](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/vintage_theme_test_1783536976864.webp)
 ![Video de Verificación de Retro Gold Claro](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/vintage_light_test_1783537286395.webp)
+
+### Botones Flotantes (FAB) y Carrito Desplizable (Drawer)
+Hemos integrado dos botones flotantes apilados en la esquina inferior derecha de todas las páginas de la tienda (WhatsApp y Carrito). Al presionar el carrito, se despliega de derecha a izquierda un menú rápido e interactivo (Drawer):
+- **WhatsApp**: Botón verde que redirige a chat de soporte con un mensaje predefinido.
+- **Carrito de Compra rápido**:
+  - Ajustes de cantidad interactivos apilados verticalmente (`+` y `-`).
+  - Opción rápida de "Eliminar" producto.
+  - Bloque desplegable de código de descuento (con soporte para `BIKE20`).
+  - Redirección automatizada a `/checkout` con los descuentos aplicados.
+
+![Drawer Abierto](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/quick_cart_drawer_open_1783541055940.png)
+![Drawer con Cupón Aplicado](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/quick_cart_drawer_coupon_applied_1783541120361.png)
+![Redirección a Checkout](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/checkout_redirect_1783541136849.png)
+![Video de Verificación del Drawer](C:/Users/Lenovo/.gemini/antigravity-ide/brain/bb2b06a2-09ca-4cfd-b5e7-377d3d47c2f9/cart_drawer_flow_1783540963693.webp)
+

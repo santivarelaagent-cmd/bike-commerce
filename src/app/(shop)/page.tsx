@@ -54,13 +54,13 @@ export default async function HomePage() {
               Nueva Colección 2026
             </span>
             <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 leading-none">
-              Domina el camino, <br />
+              Descubre tu , <br />
               <span className="text-primary bg-clip-text bg-gradient-to-r from-primary to-orange-400">
-                supera tus límites
+                próxima aventura
               </span>
             </h1>
             <p className="text-lg text-muted-foreground mb-10 max-w-lg">
-              Explora nuestra colección curada de bicicletas premium de montaña, ruta y asistencia eléctrica. Diseñadas para el rendimiento y la aventura.
+             Los mejores componentes y accesorios para llevar tu pasión por el ciclismo al siguiente nive
             </p>
             <div className="flex flex-wrap gap-4">
               <Link

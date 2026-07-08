@@ -4,6 +4,7 @@ import "./globals.css";
 import QueryProvider from "@/providers/QueryProvider";
 import { CartProvider } from "@/providers/CartProvider";
 import { ThemeProvider } from "@/providers/ThemeProvider";
+import FloatingCart from "@/components/common/FloatingCart";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -70,6 +71,7 @@ export default function RootLayout({
           <QueryProvider>
             <CartProvider>
               {children}
+              <FloatingCart />
             </CartProvider>
           </QueryProvider>
         </ThemeProvider>

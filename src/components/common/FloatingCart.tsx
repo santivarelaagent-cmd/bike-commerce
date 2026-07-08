@@ -51,7 +51,7 @@ export default function FloatingCart() {
       <div className="fixed bottom-6 right-6 z-[90] flex flex-col gap-3 items-end">
         {/* WhatsApp FAB */}
         <a
-          href="https://wa.me/5491133334444?text=Hola!%20Tengo%20una%20consulta%20sobre%20las%20bicicletas%20de%20Mango%20Bike."
+          href="https://api.whatsapp.com/send/?phone=573212471283&text=Hola%2C+me+interesa+este+producto%3A+Inicio+-+https%3A%2F%2Fmangobikestore.com%2F&type=phone_number&app_absent=0"
           target="_blank"
           rel="noopener noreferrer"
           className="flex h-12 w-12 items-center justify-center hover:scale-110 transition-transform duration-200"

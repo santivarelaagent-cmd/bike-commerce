@@ -15,16 +15,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Veloce | Premium Bike Store & E-Commerce",
+  title: "Mango Bike | Premium Bike Store & E-Commerce",
   description:
     "Descubre nuestra selecta gama de bicicletas de montaña, ruta y asistencia eléctrica. Equipamiento premium y envíos rápidos en todo el país.",
   keywords: ["bicicletas", "bike store", "mountain bike", "ruta", "specialized", "trek", "giant"],
-  authors: [{ name: "Veloce Team" }],
+  authors: [{ name: "Mango Bike" }],
   openGraph: {
-    title: "Veloce | E-Commerce de Bicicletas Premium",
+    title: "Mango Bike | E-Commerce de Bicicletas Premium",
     description: "Encuentra bicicletas de alta gama y componentes Specialized, Trek y Giant.",
-    url: "https://veloce-bikes.com",
-    siteName: "Veloce",
+    url: "https://mango-bike.vercel.app",
+    siteName: "Mango Bike",
     locale: "es_AR",
     type: "website",
   },
